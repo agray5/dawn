@@ -86,11 +86,18 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1627413646e6a49cdb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% style %}\nbody {\nbackground: green !important;\n}\n{% endstyle %}"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1627413646e6a49cdb"
   ]
 }
